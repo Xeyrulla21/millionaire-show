@@ -1,0 +1,64 @@
+* {
+    font-family: 'Lora';
+}
+
+body {
+    background-image: url('https://i.pinimg.com/564x/4d/c9/2a/4dc92a4f17a9a7ffa1cfeee39bf05573.jpg');
+}
+
+.container {
+    width: 50vw;
+    height: 60vh;
+    margin: 9% auto;
+    text-align: center;
+    border-radius: 30px;
+    border: 5px solid #FADF7F;
+    background-color: #3D0B37;
+}
+
+.title, .text {
+    padding-top: 4%;
+    color: #FADF7F;
+}
+.text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.startButton {
+    width: 14vw;
+    height: 7vh;
+    border: none;
+    cursor: pointer;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3D0B37;
+    border-radius: 30px;
+    background: #FADF7F;
+}
+
+.btnA, .btnB, .btnC, .btnD, .btnJoker {
+    width: 10vw;
+    height: 7vh;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3D0B37;
+    margin: 6% 0% 0% 2%;
+    border-radius: 30px;
+    background: #FADF7F;
+}
+.startButton:hover, .btnA:hover, .btnB:hover, .btnC:hover, .btnD:hover, .btnJoker:hover {
+    color: #FADF7F;
+    border: 3px solid #FADF7F;
+    background-color: #3D0B37;
+}
+
+.finalText {
+    font-size: 30px;
+    font-weight: 500;
+    color: #FADF7F;
+    padding: 4% 0% 0% 4%;
+}
